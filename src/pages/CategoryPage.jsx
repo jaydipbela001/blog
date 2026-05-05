@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import Skeleton from 'react-loading-skeleton';
+import 'react-loading-skeleton/dist/skeleton.css';
 
 // Helper to create category navigation state
 const getCategoryLinkState = (category) => ({ from: 'category', category });
@@ -31,7 +33,17 @@ const categoryTitles = {
 function CategoryPage({ category }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [activeFilter, setActiveFilter] = useState('All');
+  const [isLoading, setIsLoading] = useState(true);
   const postsPerPage = 5;
+
+  // Simulate loading for skeleton demonstration
+  useEffect(() => {
+    setIsLoading(true);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1200);
+    return () => clearTimeout(timer);
+  }, [category, currentPage]);
 
   // Get posts for this category using imported helper
   const posts = getPostsByCategory(category);
@@ -85,29 +97,43 @@ function CategoryPage({ category }) {
       {/* Featured Hero Section - Content Left, Image Right */}
       <section className="cat-hero-section">
         <div className="cat-hero-container">
-          {featuredPost && (
+          {isLoading ? (
             <>
-              <div className="cat-hero-content">
-                <span className="cat-hero-label">FEATURED STORY</span>
-                <h1 className="cat-hero-title">{featuredPost.title}</h1>
-                <p className="cat-hero-excerpt">{featuredPost.excerpt}</p>
-                <div className="cat-hero-actions">
-                  <Link to={`/blog/${featuredPost.slug}`} state={getCategoryLinkState(category)} className="cat-hero-btn">
-                    Read Full Story
-                  </Link>
-                  <span className="cat-hero-readtime">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <circle cx="12" cy="12" r="10"/>
-                      <polyline points="12 6 12 12 16 14"/>
-                    </svg>
-                    {featuredPost.readTime}
-                  </span>
-                </div>
+              <div className="cat-hero-content" style={{ flex: 1 }}>
+                <Skeleton width={120} height={20} style={{ marginBottom: '1rem' }} />
+                <Skeleton height={48} style={{ marginBottom: '1rem' }} />
+                <Skeleton count={3} style={{ marginBottom: '1.5rem' }} />
+                <Skeleton width={140} height={44} />
               </div>
-              <div className="cat-hero-image-wrap">
-                <img src={featuredPost.image} alt={featuredPost.title} />
+              <div className="cat-hero-image-wrap" style={{ flex: 1 }}>
+                <Skeleton height={400} />
               </div>
             </>
+          ) : (
+            featuredPost && (
+              <>
+                <div className="cat-hero-content">
+                  <span className="cat-hero-label">FEATURED STORY</span>
+                  <h1 className="cat-hero-title">{featuredPost.title}</h1>
+                  <p className="cat-hero-excerpt">{featuredPost.excerpt}</p>
+                  <div className="cat-hero-actions">
+                    <Link to={`/blog/${featuredPost.slug}`} state={getCategoryLinkState(category)} className="cat-hero-btn">
+                      Read Full Story
+                    </Link>
+                    <span className="cat-hero-readtime">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <polyline points="12 6 12 12 16 14"/>
+                      </svg>
+                      {featuredPost.readTime}
+                    </span>
+                  </div>
+                </div>
+                <div className="cat-hero-image-wrap">
+                  <img src={featuredPost.image} alt={featuredPost.title} onLoad={e => e.target.classList.add('loaded')} />
+                </div>
+              </>
+            )
           )}
         </div>
       </section>
@@ -120,7 +146,7 @@ function CategoryPage({ category }) {
             {/* Section Header with Filter Tabs */}
             <div className="cat-section-header">
               <h2 className="cat-section-title">Latest Articles</h2>
-              <div className="cat-filter-tabs">
+              {/* <div className="cat-filter-tabs">
                 {['All', 'Popular', 'Recent'].map((filter) => (
                   <button
                     key={filter}
@@ -130,38 +156,57 @@ function CategoryPage({ category }) {
                     {filter}
                   </button>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Articles Grid - First article is featured large */}
             <div className="cat-articles-grid">
-              {listPosts.map((post, index) => (
-                <article 
-                  key={post.id} 
-                  className={`cat-article-card ${index === 0 ? 'cat-article-featured' : ''}`}
-                >
-                  <Link to={`/blog/${post.slug}`} state={getCategoryLinkState(category)} className="cat-article-img-wrap">
-                    <img src={post.image} alt={post.title} />
-                    <span className="cat-article-badge">{post.category}</span>
-                  </Link>
-                  <div className="cat-article-content">
-                    <h3 className="cat-article-headline">
-                      <Link to={`/blog/${post.slug}`} state={getCategoryLinkState(category)}>{post.title}</Link>
-                    </h3>
-                    <p className="cat-article-excerpt">{post.excerpt}</p>
-                    <div className="cat-article-meta">
-                      <div className="cat-article-author">
-                        <span className="cat-author-avatar">{post.author.charAt(0)}</span>
-                        <span className="cat-author-name">{post.author}</span>
-                      </div>
-                      <span className="cat-meta-separator">•</span>
-                      <span className="cat-article-date">{post.date}</span>
-                      <span className="cat-meta-separator">•</span>
-                      <span className="cat-article-readtime">{post.readTime}</span>
+              {isLoading ? (
+                Array.from({ length: 5 }).map((_, i) => (
+                  <article 
+                    key={i} 
+                    className={`cat-article-card ${i === 0 ? 'cat-article-featured' : ''}`}
+                  >
+                    <Skeleton 
+                      height={i === 0 ? 280 : 180} 
+                      style={{ marginBottom: '1rem' }} 
+                    />
+                    <div className="cat-article-content">
+                      <Skeleton height={24} style={{ marginBottom: '0.75rem' }} />
+                      <Skeleton count={2} style={{ marginBottom: '0.75rem' }} />
+                      <Skeleton width={150} height={16} />
                     </div>
-                  </div>
-                </article>
-              ))}
+                  </article>
+                ))
+              ) : (
+                listPosts.map((post, index) => (
+                  <article 
+                    key={post.id} 
+                    className={`cat-article-card ${index === 0 ? 'cat-article-featured' : ''}`}
+                  >
+                    <Link to={`/blog/${post.slug}`} state={getCategoryLinkState(category)} className="cat-article-img-wrap">
+                      <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
+                      <span className="cat-article-badge">{post.category}</span>
+                    </Link>
+                    <div className="cat-article-content">
+                      <h3 className="cat-article-headline">
+                        <Link to={`/blog/${post.slug}`} state={getCategoryLinkState(category)}>{post.title}</Link>
+                      </h3>
+                      <p className="cat-article-excerpt">{post.excerpt}</p>
+                      <div className="cat-article-meta">
+                        <div className="cat-article-author">
+                          <span className="cat-author-avatar">{post.author.charAt(0)}</span>
+                          <span className="cat-author-name">{post.author}</span>
+                        </div>
+                        <span className="cat-meta-separator">•</span>
+                        <span className="cat-article-date">{post.date}</span>
+                        <span className="cat-meta-separator">•</span>
+                        <span className="cat-article-readtime">{post.readTime}</span>
+                      </div>
+                    </div>
+                  </article>
+                ))
+              )}
             </div>
 
             {/* Pagination */}
@@ -202,17 +247,29 @@ function CategoryPage({ category }) {
             <div className="cat-sidebar-box">
               <h4 className="cat-sidebar-title">Trending Now</h4>
               <div className="cat-trending-list">
-                {posts.slice(0, 5).map((post, index) => (
-                  <Link key={post.id} to={`/blog/${post.slug}`} state={getCategoryLinkState(category)} className="cat-trending-item">
-                    <span className="cat-trending-number" style={getRankStyle(index)}>
-                      {index + 1}
-                    </span>
-                    <div className="cat-trending-content">
-                      <h5 className="cat-trending-title">{post.title}</h5>
-                      <span className="cat-trending-date">{post.date}</span>
+                {isLoading ? (
+                  Array.from({ length: 5 }).map((_, i) => (
+                    <div key={i} className="cat-trending-item">
+                      <Skeleton circle width={28} height={28} style={{ marginRight: '0.75rem', flexShrink: 0 }} />
+                      <div className="cat-trending-content" style={{ flex: 1 }}>
+                        <Skeleton height={16} style={{ marginBottom: '0.5rem' }} />
+                        <Skeleton width={80} height={12} />
+                      </div>
                     </div>
-                  </Link>
-                ))}
+                  ))
+                ) : (
+                  posts.slice(0, 5).map((post, index) => (
+                    <Link key={post.id} to={`/blog/${post.slug}`} state={getCategoryLinkState(category)} className="cat-trending-item">
+                      <span className="cat-trending-number" style={getRankStyle(index)}>
+                        {index + 1}
+                      </span>
+                      <div className="cat-trending-content">
+                        <h5 className="cat-trending-title">{post.title}</h5>
+                        <span className="cat-trending-date">{post.date}</span>
+                      </div>
+                    </Link>
+                  ))
+                )}
               </div>
             </div>
 

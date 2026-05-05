@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://smartreadsblog.vercel.app/sitemap.xml
 
 # Crawl rate optimization
 Crawl-delay: 1

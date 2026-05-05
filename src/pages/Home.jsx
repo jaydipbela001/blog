@@ -91,7 +91,7 @@ function Home() {
                   <Link to={`/blog/${allPosts[0].slug}`}
                   state={homeLinkState} className="hero-image-wrap"
                   onClick={handleBlogClick}>
-                    <img src={allPosts[0].image} alt={allPosts[0].title} />
+                    <img src={allPosts[0].image} alt={allPosts[0].title} onLoad={e => e.target.classList.add('loaded')} />
                     <span className="hero-cat">{allPosts[0].category}</span>
                   </Link>
                   <div className="hero-text">
@@ -131,7 +131,7 @@ function Home() {
                     <Link to={`/blog/${post.slug}`}
                     state={homeLinkState} className="trend-img-link"
                     onClick={handleBlogClick}>
-                      <img src={post.image} alt={post.title} />
+                      <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
                     </Link>
                     <div className="trend-text">
                       <span className="trend-cat">{post.category}</span>
@@ -229,7 +229,7 @@ function Home() {
                     </Link>
                   </div>
                   <div className="video-thumb">
-                    <img src={featuredBannerPost.image} alt={featuredBannerPost.title} />
+                    <img src={featuredBannerPost.image} alt={featuredBannerPost.title} onLoad={e => e.target.classList.add('loaded')} />
                   </div>
                 </>
               )}
@@ -268,7 +268,7 @@ function Home() {
                 <article className="cat-featured">
                   <Link to={`/blog/${allPosts[4].slug}`} className="cat-featured-img"
                   onClick={handleBlogClick}>
-                    <img src={allPosts[4].image} alt={allPosts[4].title} />
+                    <img src={allPosts[4].image} alt={allPosts[4].title} onLoad={e => e.target.classList.add('loaded')} />
                     <span className="cat-tag">{allPosts[4].category}</span>
                   </Link>
                   <h3 className="cat-featured-title">
@@ -283,7 +283,7 @@ function Home() {
                       <Link to={`/blog/${post.slug}`}
                     state={homeLinkState} className="cat-list-img"
                     onClick={handleBlogClick}>
-                        <img src={post.image} alt={post.title} />
+                        <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
                       </Link>
                       <div className="cat-list-text">
                         <span className="cat-list-tag">{post.category}</span>
@@ -323,7 +323,7 @@ function Home() {
                     <Link to={`/blog/${post.slug}`}
                     state={homeLinkState} className="history-img"
                     onClick={handleBlogClick}>
-                      <img src={post.image} alt={post.title} />
+                      <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
                     </Link>
                     <div className="history-text">
                       <span className="history-cat">{post.category}</span>
@@ -362,7 +362,7 @@ function Home() {
                     <Link to={`/blog/${post.slug}`}
                     state={homeLinkState} className="latest-img"
                     onClick={handleBlogClick}>
-                      <img src={post.image} alt={post.title} />
+                      <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
                     </Link>
                     <div className="latest-text">
                       <span className="latest-cat">{post.category}</span>
@@ -406,7 +406,7 @@ function Home() {
                     <Link to={`/blog/${post.slug}`}
                     state={homeLinkState} className="history-img"
                     onClick={handleBlogClick}>
-                      <img src={post.image} alt={post.title} />
+                      <img src={post.image} alt={post.title} onLoad={e => e.target.classList.add('loaded')} />
                     </Link>
                     <div className="history-text">
                       <span className="history-cat">{post.category}</span>

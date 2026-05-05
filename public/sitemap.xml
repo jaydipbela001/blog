@@ -2,554 +2,554 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://smartreadsblog.vercel.app/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Category Pages -->
   <url>
-    <loc>https://yourdomain.com/esports</loc>
+    <loc>https://smartreadsblog.vercel.app/esports</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/food</loc>
+    <loc>https://smartreadsblog.vercel.app/food</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/entertainment</loc>
+    <loc>https://smartreadsblog.vercel.app/entertainment</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/health</loc>
+    <loc>https://smartreadsblog.vercel.app/health</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/money</loc>
+    <loc>https://smartreadsblog.vercel.app/money</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/travel</loc>
+    <loc>https://smartreadsblog.vercel.app/travel</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/tech</loc>
+    <loc>https://smartreadsblog.vercel.app/tech</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/history</loc>
+    <loc>https://smartreadsblog.vercel.app/history</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/culture</loc>
+    <loc>https://smartreadsblog.vercel.app/culture</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/war</loc>
+    <loc>https://smartreadsblog.vercel.app/war</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <!-- Esports Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/lol-worlds-2025-showdown</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/lol-worlds-2025-showdown</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/valorant-champions-2025-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/valorant-champions-2025-guide</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/cs2-major-copenhagen-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/cs2-major-copenhagen-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/dota2-international-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/dota2-international-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/fortnite-world-cup-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/fortnite-world-cup-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/overwatch2-pro-league-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/overwatch2-pro-league-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/fifa-eworld-cup-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/fifa-eworld-cup-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/street-fighter-6-evolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/street-fighter-6-evolution</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/mobile-esports-revolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/mobile-esports-revolution</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/rainbow-six-siege-tactical</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/rainbow-six-siege-tactical</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/apex-legends-championship</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/apex-legends-championship</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/cod-league-mw3</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/cod-league-mw3</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Food Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/michelin-star-secrets</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/michelin-star-secrets</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/street-food-revolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/street-food-revolution</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/plant-based-fine-dining</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/plant-based-fine-dining</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/sourdough-mastery-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/sourdough-mastery-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/japanese-ramen-global</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/japanese-ramen-global</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/wine-pairing-fundamentals</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/wine-pairing-fundamentals</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/chocolate-craft-bean-bar</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/chocolate-craft-bean-bar</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/korean-bbq-social-dining</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/korean-bbq-social-dining</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/mediterranean-diet-health</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/mediterranean-diet-health</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/indian-spices-journey</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/indian-spices-journey</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/french-pastry-techniques</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/french-pastry-techniques</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/farm-to-table-local</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/farm-to-table-local</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Entertainment Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/streaming-wars-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/streaming-wars-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/oscar-nominations-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/oscar-nominations-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/kpop-global-domination</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/kpop-global-domination</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/broadway-comeback-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/broadway-comeback-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/netflix-originals-best</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/netflix-originals-best</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/gaming-culture-impact</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/gaming-culture-impact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/film-festivals-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/film-festivals-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/celebrity-influencers-evolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/celebrity-influencers-evolution</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/podcast-industry-growth</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/podcast-industry-growth</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/virtual-concerts-future</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/virtual-concerts-future</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/indie-music-renaissance</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/indie-music-renaissance</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/reality-tv-impact</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/reality-tv-impact</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Health Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/sleep-hygiene-research</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/sleep-hygiene-research</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/meditation-science-benefits</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/meditation-science-benefits</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/strength-training-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/strength-training-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/nutrition-trends-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/nutrition-trends-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/mental-health-workplace</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/mental-health-workplace</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/yoga-beginners-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/yoga-beginners-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/longevity-research</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/longevity-research</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/gut-health-microbiome</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/gut-health-microbiome</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/home-workout-equipment</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/home-workout-equipment</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/stress-management-techniques</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/stress-management-techniques</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/organic-food-worth-it</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/organic-food-worth-it</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/hydration-health-tips</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/hydration-health-tips</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Money Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/crypto-investing-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/crypto-investing-2025</loc>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/retirement-planning-millennials</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/retirement-planning-millennials</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/stock-market-basics</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/stock-market-basics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/passive-income-ideas</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/passive-income-ideas</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/saving-strategies-families</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/saving-strategies-families</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/real-estate-investing-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/real-estate-investing-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/credit-score-improvement</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/credit-score-improvement</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/side-hustle-ideas-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/side-hustle-ideas-2025</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/tax-optimization-strategies</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/tax-optimization-strategies</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/emergency-fund-essentials</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/emergency-fund-essentials</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/budgeting-apps-compared</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/budgeting-apps-compared</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/wealth-building-habits</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/wealth-building-habits</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Travel Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/hidden-gems-southeast-asia</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/hidden-gems-southeast-asia</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/solo-female-travel-safety</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/solo-female-travel-safety</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/digital-nomad-paradise</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/blog/european-train-journeys</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/blog/budget-travel-hacks</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/blog/safari-adventures-africa</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/blog/japan-cherry-blossom-guide</loc>
-    <changefreq>seasonal</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://yourdomain.com/blog/island-hopping-caribbean-mediterranean</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/digital-nomad-paradise</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/sustainable-tourism-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/european-train-journeys</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/northern-lights-chasing</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/budget-travel-hacks</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartreadsblog.vercel.app/blog/safari-adventures-africa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartreadsblog.vercel.app/blog/japan-cherry-blossom-guide</loc>
     <changefreq>seasonal</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/backpacking-europe-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/island-hopping-caribbean-mediterranean</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://smartreadsblog.vercel.app/blog/sustainable-tourism-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/luxury-resorts-worth-it</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/northern-lights-chasing</loc>
+    <changefreq>seasonal</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartreadsblog.vercel.app/blog/backpacking-europe-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartreadsblog.vercel.app/blog/luxury-resorts-worth-it</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Tech Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/ai-transformation-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/ai-transformation-2025</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/quantum-computing-explained</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/quantum-computing-explained</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/cybersecurity-tips-home</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/cybersecurity-tips-home</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/smart-home-evolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/smart-home-evolution</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/5g-network-impact</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/5g-network-impact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/blockchain-beyond-crypto</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/blockchain-beyond-crypto</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/cloud-computing-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/cloud-computing-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/ev-future-transportation</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/ev-future-transportation</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/ar-vr-reality-shift</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/ar-vr-reality-shift</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/programming-languages-2025</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/programming-languages-2025</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/tech-startup-success</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/tech-startup-success</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/wearable-tech-fitness</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/wearable-tech-fitness</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- History Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/ancient-rome-daily-life</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/ancient-rome-daily-life</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/renaissance-art-innovation</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/renaissance-art-innovation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/industrial-revolution-impact</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/industrial-revolution-impact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/silk-road-trade-history</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/silk-road-trade-history</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/ancient-egypt-secrets</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/ancient-egypt-secrets</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- Culture Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/global-festivals-guide</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/global-festivals-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/street-art-movement</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/street-art-movement</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/traditional-crafts-preservation</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/traditional-crafts-preservation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- War Blog Posts -->
   <url>
-    <loc>https://yourdomain.com/blog/modern-warfare-evolution</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/modern-warfare-evolution</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/peace-keeping-missions</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/peace-keeping-missions</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://yourdomain.com/blog/military-technology-advancement</loc>
+    <loc>https://smartreadsblog.vercel.app/blog/military-technology-advancement</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
