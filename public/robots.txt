@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl rate optimization
+Crawl-delay: 1
+
+# Block unnecessary paths for single-page apps
+Disallow: /api/
+Disallow: /admin/
+Disallow: /login
+Disallow: /register
+Disallow: /account/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /_next/
+Disallow: /static/
+
+# Allow search engines to index everything else
+Allow: /blog/
+Allow: /esports/
+Allow: /food/
+Allow: /entertainment/
+Allow: /health/
+Allow: /money/
+Allow: /travel/
+Allow: /tech/
+Allow: /history/
+Allow: /culture/
+Allow: /war/
