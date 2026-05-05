@@ -310,7 +310,6 @@
   transition: opacity 0.3s ease;
 }
 .cat-featured-img img.loaded { opacity: 1; }
-}
 
 .cat-tag {
   position: absolute;
