@@ -1,6 +1,29 @@
 
 
-import { esportsImages, foodImages, entertainmentImages, healthImages, moneyImages, travelImages, techImages, historyImages, cultureImages, warImages } from '../assets/img';
+let esportsImages = {};
+let foodImages = {};
+let entertainmentImages = {};
+let healthImages = {};
+let moneyImages = {};
+let travelImages = {};
+let techImages = {};
+let historyImages = {};
+let cultureImages = {};
+let warImages = {};
+
+if (typeof window !== 'undefined') {
+  const assets = await import('../assets/img/index.js');
+  esportsImages = assets.esportsImages;
+  foodImages = assets.foodImages;
+  entertainmentImages = assets.entertainmentImages;
+  healthImages = assets.healthImages;
+  moneyImages = assets.moneyImages;
+  travelImages = assets.travelImages;
+  techImages = assets.techImages;
+  historyImages = assets.historyImages;
+  cultureImages = assets.cultureImages;
+  warImages = assets.warImages;
+}
 
 // ============================================
 // ALL BLOG POSTS - Single Array
