@@ -2,6 +2,7 @@ import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import './BlogPost.css';
 import { allPosts } from '../data/posts.js';
+import { slugRedirects } from '../config/slugRedirects.js';
 
 // Helper function to get posts by category
 export const getPostsByCategory = (category) => {
@@ -38,7 +39,19 @@ function BlogPost() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const post = allPosts.find(p => p.slug === slug);
+  const redirectSlug = slugRedirects[slug];
+  const actualSlug = redirectSlug || slug;
+  const post = allPosts.find(p => p.slug === actualSlug);
+
+  useEffect(() => {
+    if (redirectSlug) {
+      navigate(`/blog/${redirectSlug}`, { replace: true });
+    }
+  }, [redirectSlug, navigate]);
+
+  if (redirectSlug) {
+    return null;
+  }
 
   // Handle back navigation based on where user came from
   const handleBack = () => {

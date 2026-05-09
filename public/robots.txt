@@ -1,32 +1,22 @@
 User-agent: *
 Allow: /
-
-# Sitemap location
-Sitemap: https://smartreadsblog.vercel.app/sitemap.xml
-
-# Crawl rate optimization
-Crawl-delay: 1
-
-# Block unnecessary paths for single-page apps
 Disallow: /api/
 Disallow: /admin/
-Disallow: /login
-Disallow: /register
-Disallow: /account/
-Disallow: /cart/
-Disallow: /checkout/
-Disallow: /_next/
-Disallow: /static/
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
 
-# Allow search engines to index everything else
-Allow: /blog/
-Allow: /esports/
-Allow: /food/
-Allow: /entertainment/
-Allow: /health/
-Allow: /money/
-Allow: /travel/
-Allow: /tech/
-Allow: /history/
-Allow: /culture/
-Allow: /war/
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+
+Sitemap: https://smartreadsblog.vercel.app/sitemap.xml
