@@ -2705,7 +2705,7 @@ export const allPosts = [
       category: 'Travel',
       author: 'Safari Sam',
       date: 'Jan 3, 2026',
-      readTime: '7 min read',
+      readTime: '7 min read', 
       image: travelImages.t6,
       slug: 'safari-adventures-africa',
       content: `
