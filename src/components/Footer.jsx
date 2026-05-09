@@ -52,18 +52,15 @@ function Footer() {
           <div className="footer-column">
             <h4>About</h4>
             <ul className="footer-links">
-              <li><Link to="/" className="footer-link">Our Story</Link></li>
-              <li><Link to="/" className="footer-link">Write for Us</Link></li>
-              <li><Link to="/" className="footer-link">Partner With Us</Link></li>
+              <li><Link to="/about" className="footer-link">About Us</Link></li>
+              <li><Link to="/contact" className="footer-link">Contact</Link></li>
             </ul>
           </div>
 
           <div className="footer-column">
             <h4>Legal</h4>
             <ul className="footer-links">
-              <li><Link to="/" className="footer-link">Privacy Policy</Link></li>
-              <li><Link to="/" className="footer-link">Terms of Service</Link></li>
-              <li><Link to="/" className="footer-link">Cookie Policy</Link></li>
+              <li><Link to="/privacy-policy" className="footer-link">Privacy Policy</Link></li>
             </ul>
           </div>
         </div>

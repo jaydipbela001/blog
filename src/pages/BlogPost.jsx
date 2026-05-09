@@ -1,5 +1,6 @@
 import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import './BlogPost.css';
 import { allPosts } from '../data/posts.js';
 import { slugRedirects } from '../config/slugRedirects.js';
@@ -94,8 +95,36 @@ function BlogPost() {
     );
   }
 
+  const canonicalUrl = `https://smartreadsblog.vercel.app/blog/${post.slug}`;
+  const description = post.excerpt || post.title;
+
   return (
     <article className="blog-post">
+      <Helmet>
+        <title>{post.title} | SmartReads</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonicalUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={post.image} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content={post.image} />
+        <script type="application/ld+json">{JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": post.title,
+          "description": description,
+          "image": post.image,
+          "author": { "@type": "Person", "name": post.author },
+          "datePublished": post.date,
+          "publisher": { "@type": "Organization", "name": "SmartReads", "url": "https://smartreadsblog.vercel.app" },
+          "url": canonicalUrl
+        })}</script>
+      </Helmet>
       {/* Article Header - Full Width */}
       <header className="article-header-full">
         <div className="article-header-shell">

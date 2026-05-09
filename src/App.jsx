@@ -14,6 +14,9 @@ import HistoryPage from './pages/HistoryPage';
 import CulturePage from './pages/CulturePage';
 import WarPage from './pages/WarPage';
 import EnvironmentPage from './pages/EnvironmentPage';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import About from './pages/About';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -35,6 +38,9 @@ function App() {
           <Route path="/culture" element={<CulturePage />} />
           <Route path="/war" element={<WarPage />} />
           <Route path="/environment" element={<EnvironmentPage />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />

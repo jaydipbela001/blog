@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 
@@ -94,6 +95,13 @@ function CategoryPage({ category }) {
 
   return (
     <div className="category-page">
+      <Helmet>
+        <title>{categoryTitles[category] || category} Articles | SmartReads</title>
+        <meta name="description" content={`Read the latest ${categoryTitles[category] || category} articles on SmartReads. Discover top stories, tips, and insights.`} />
+        <link rel="canonical" href={`https://smartreadsblog.vercel.app/${category}`} />
+        <meta property="og:title" content={`${categoryTitles[category] || category} | SmartReads`} />
+        <meta property="og:url" content={`https://smartreadsblog.vercel.app/${category}`} />
+      </Helmet>
       {/* Featured Hero Section - Content Left, Image Right */}
       <section className="cat-hero-section">
         <div className="cat-hero-container">
