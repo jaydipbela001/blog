@@ -2,7 +2,7 @@
   "buildCommand": "npm run build && node scripts/generate-sitemap.js",
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\..*).*)",
       "destination": "/index.html"
     }
   ],
